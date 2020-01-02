@@ -1,8 +1,13 @@
+html{
+    font-family: Arial;
+}
+
+
 #container {
     width:1050px;
-    border: 1px solid gray;
     height:100px;
-    margin: 0px auto;
+    margin: 20px auto;
+    padding: 1px 10px 20px 10px;
 }
 
 #header{
@@ -15,13 +20,13 @@
 h1 a{
     font-size: 50px;
     font-weight: 100;
-    color: #861BBF;
+    color: purple;
     text-decoration: none;
 }
 
 #searchBox{
     float: right;
-    background: linear-gradient(#E4F2B9, #B7E953);
+    background: linear-gradient(palegoldenrod, rgb(255,251,0));
     width: 400px;
     height: 50px;
     padding: 20px 20px 0px 20px;
@@ -33,7 +38,8 @@ h1 a{
     width:200px;
     padding:5px;
     font-size:15px;
-    color: orangered;
+    color: rgb(211, 15, 107);
+    background: white url(Magnifying\ Glass.png) right center no-repeat;
 }
 
 .submit{
@@ -49,6 +55,128 @@ h1 a{
     clear: both;
 }
 
+#menu{
+    height: 70px;
+    background: linear-gradient(palegoldenrod, rgb(255, 251, 0));
+    padding: 7px 0;
+    margin-top: 10px;
+}
 ul{
     list-style:none;
+}
+#menu  ul li{
+    float: left;
+    padding: 0 10px;
+    height: 20px;
+    border-right: 1px darkmagenta;
+    line-height: 30px;
+}
+
+#menu ul li:last-child{
+    border-right: none;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: darkmagenta;
+    transition: font-size .3s ease;
+}
+
+#menu ul li a:hover, #menu ul li a:active{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(68, 4, 68);
+}
+
+#introduction{
+    background: linear-gradient(rgb(71, 6, 71), rgb(145, 99, 145));
+    padding: 30px;
+    margin:16px 0;
+
+}
+
+#introduction h3{
+    font-size:45px;
+    color:rgb(255, 251, 0);
+    font-weight: normal;
+}
+
+#introduction p{
+    font-size: 25px;
+    color:rgb(255, 251, 0);
+    text-align: justify;
+}
+
+.sidebar{
+    height: 500px;
+    width: 450px;
+    border: 1px solid purple;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+#leftsidebar{
+    float: left;
+
+}
+
+#rightsidebar{
+    float: right;
+}
+
+.sidebar h3{
+    color: purple;
+    font-size: 30px;
+
+}
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color:rgb(72, 25, 92);
+}
+
+.sidebar ul li a:hover, .sidebar ul li a:active{
+    text-decoration: none;
+    color:magenta;
+    font-size:23px;
+    font-weight:bold;
+
+}
+
+.sidebar ul{
+    padding-top: 5px;
+}
+#leftsidebar ul li{
+    padding-bottom: 6px;
+    padding-left: 10px;
+    list-style-image: url(arrow.png);
+}
+
+#rightsidebar ul li{
+    padding-bottom: 12px;
+    list-style-image: url(checkmark.png);
+}
+
+#credit{
+    margin-top:100px;
+    height:100px;
+    width: 420px;
+    align-content: center;
+
+}
+
+#credit h6{
+    padding: none;
+    margin-bottom: 4px;
+
+}
+
+#credit button{
+    padding-top: 1px;
+    float: right;
+    
+   
+
 }
