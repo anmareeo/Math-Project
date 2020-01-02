@@ -1,0 +1,54 @@
+#container {
+    width:1050px;
+    border: 1px solid gray;
+    height:100px;
+    margin: 0px auto;
+}
+
+#header{
+    height: 100px;
+    padding: 10px 0px;
+}
+#brand{
+    float: left;
+}
+h1 a{
+    font-size: 50px;
+    font-weight: 100;
+    color: #861BBF;
+    text-decoration: none;
+}
+
+#searchBox{
+    float: right;
+    background: linear-gradient(#E4F2B9, #B7E953);
+    width: 400px;
+    height: 50px;
+    padding: 20px 20px 0px 20px;
+    margin-top: 20px;
+}
+
+.text{
+    float: left;
+    width:200px;
+    padding:5px;
+    font-size:15px;
+    color: orangered;
+}
+
+.submit{
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    color:white;
+    background: darkmagenta;
+    font-size: 15px;
+}
+
+.clear{
+    clear: both;
+}
+
+ul{
+    list-style:none;
+}
