@@ -1,8 +1,10 @@
 html{
     font-family: Arial;
+    background-color: white;
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 
@@ -19,21 +21,22 @@ body{
 }
 #brand{
     float: left;
+    float: top;
 }
 h1 a{
     font-size: 50px;
     font-weight: 100;
-    color: purple;
+    color: navy;
     text-decoration: none;
 }
 
-#searchBox{
+#photoBox{
     float: right;
-    background: linear-gradient(palegoldenrod, rgb(255,251,0));
-    width: 400px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     padding: 20px 20px 0px 20px;
     margin-top: 20px;
+  
 }
 
 .text{
@@ -41,7 +44,7 @@ h1 a{
     width:200px;
     padding:5px;
     font-size:15px;
-    color: rgb(211, 15, 107);
+    color: blue;
     background: white url(Magnifying\ Glass.png) right center no-repeat;
     border: 1px solid #C8D03E
   
@@ -52,7 +55,7 @@ h1 a{
     padding: 5px;
     font-weight: bold;
     color:white;
-    background: darkmagenta;
+    background: darkblue;
     font-size: 15px;
 }
 
@@ -62,10 +65,7 @@ h1 a{
 
 #menu{
     height: 70px;
-    background: linear-gradient(palegoldenrod, rgb(255,251,0));
-    background: -webkit-linear-gradient(palegoldenrod, rgb(255,251,0));
-    background: -moz-linear-gradient(palegoldenrod, rgb(255,251,0));
-    background: -o-linear-gradient(palegoldenrod, rgb(255,251,0));
+    background-color: navy;
     padding: 7px 0;
     margin-top: 10px;
 }
@@ -76,7 +76,7 @@ ul{
     float: left;
     padding: 0 10px;
     height: 20px;
-    border-right: 1px darkmagenta;
+    border-right: 1px navy;
     line-height: 30px;
 }
 
@@ -88,21 +88,21 @@ ul{
     text-decoration: none;
     text-transform: uppercase;
     font-size: 17px;
-    color: darkmagenta;
+    color: aliceblue;
     transition: font-size .3s ease;
 }
 
 #menu ul li a:hover, #menu ul li a:active{
     font-size: 20px;
     font-weight: bold;
-    color: rgb(68, 4, 68);
+    color: lightblue;
 }
 
 #introduction{
-    background: linear-gradient(rgb(71, 6, 71), rgb(145, 99, 145));
-    background: -webkit-linear-gradient(rgb(71, 6, 71), rgb(145, 99, 145));
-    background: -moz-linear-gradient(rgb(71, 6, 71), rgb(145, 99, 145));
-    background: -o-linear-gradient(rgb(71, 6, 71), rgb(145, 99, 145));
+    background: linear-gradient(lightblue, aliceblue);
+    background: -webkit-linear-gradient (lightblue, aliceblue);
+    background: -moz-linear-gradient(lightblue, aliceblue);
+    background: -o-linear-gradient(lightblue, aliceblue);
     padding: 30px;
     margin:16px 0;
 
@@ -110,20 +110,20 @@ ul{
 
 #introduction h3{
     font-size:45px;
-    color:rgb(255, 251, 0);
+    color:navy;
     font-weight: normal;
 }
 
 #introduction p{
     font-size: 25px;
-    color:rgb(255, 251, 0);
+    color:navy;
     text-align: justify;
 }
 
 .sidebar{
     height: 500px;
     width: 450px;
-    border: 1px solid purple;
+    border: 1px solid navy;
     border-radius: 20px;
     padding: 10px 30px;
 }
@@ -138,19 +138,19 @@ ul{
 }
 
 .sidebar h3{
-    color: purple;
+    color: darkslateblue;
     font-size: 30px;
 
 }
 .sidebar ul li a{
     text-decoration: none;
     font-size: 20px;
-    color:rgb(72, 25, 92);
+    color:darkslateblue;
 }
 
 .sidebar ul li a:hover, .sidebar ul li a:active{
     text-decoration: none;
-    color:magenta;
+    color: lightblue;
     font-size:23px;
     font-weight:bold;
 
